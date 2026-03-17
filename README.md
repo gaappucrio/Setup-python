@@ -933,9 +933,9 @@ python3-dev
 ```
 
 > [!WARNING]
-> ### ⚠️ Etapa Importante Antes de Instalar o Python
+> ### ⚠️ Important Step Before Installing Python
 >
-> **Se o comando `pyenv` não for reconhecido**, você precisa adicionar o Pyenv ao seu perfil do Zsh. Copie e cole este bloco inteiro no terminal e aperte Enter:
+> **If the `pyenv` command is not recognized**, you need to add Pyenv to your Zsh profile. Copy and paste this entire block into your terminal and press Enter:
 >
 > ```bash
 > echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
@@ -943,15 +943,15 @@ python3-dev
 > echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 > ```
 >
-> Depois, atualize o terminal:
+> Then, refresh your terminal:
 >
 > ```bash
 > source ~/.zshrc
 > ```
 >
-> **Por que isso pode ser necessário?** O tutorial original manda usar `source ~/.zprofile`, mas no Ubuntu/Debian o Zsh usa mais comumente o arquivo `.zshrc`. O `git clone` coloca o pyenv em `~/.pyenv`, mas essa pasta precisa estar no PATH do sistema.
+> **Why is this necessary?** The original tutorial suggests using `source ~/.zprofile`, but on Ubuntu/Debian, Zsh more commonly utilizes the `.zshrc`. While the `git clone` command places Pyenv in `~/.pyenv`, this directory must be added to the system's PATH to work correctly.
 >
-> 💡 **Dica técnica:** Se você trabalha com Machine Learning e Engenharia, o pyenv é ótimo para isolar as dependências dos seus projetos sem quebrar o Python padrão do sistema.
+> 💡 **Pro Tip:** If you work with Machine Learning and Engineering, pyenv is excellent for isolating your project dependencies without breaking the system's default Python installation.
 
 Now install Python:
 
