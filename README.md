@@ -1197,8 +1197,7 @@ tinycss2
 tokenizers
 toml
 tomlkit
-torch-2.6.0+cpu.cxx11.abi-cp312-cp312-linux_x86_64.whl; platform_machine == "x86_64"
-torch-2.6.0+cpu-cp312-cp312-manylinux_2_28_aarch64.whl; platform_machine == "aarch64"
+torch==2.6.0
 tornado
 tqdm
 traitlets
