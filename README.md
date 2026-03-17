@@ -65,7 +65,7 @@ We need virtualization activated to enable multiple virtual machines on the comp
 - Look for **"Virtualization"**
 
 <p align="center">
-  <img src="docs/images/page_02.jpg" alt="Task Manager - Virtualization check" width="700"/>
+  <img src="images/page_02.jpg" alt="Task Manager - Virtualization check" width="700"/>
 </p>
 
 If it's **"Enabled"**, all good. If it's not listed or if it's **"Disabled"**, follow [this Windows tutorial](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1) to activate it.
@@ -92,7 +92,7 @@ wsl --install
 7. An Ubuntu installation will begin and **restarting your computer might be required**
 
 <p align="center">
-  <img src="docs/images/page_03.jpg" alt="WSL installation" width="700"/>
+  <img src="images/page_03.jpg" alt="WSL installation" width="700"/>
 </p>
 
 ### Checking WSL Version
@@ -122,7 +122,7 @@ With WSL installed, type **"Terminal"** on your Windows search bar and open the 
 > If you're using **Windows 10**, you can install the Terminal app through the **Microsoft Store**.
 
 <p align="center">
-  <img src="docs/images/page_04.jpg" alt="Terminal app with Ubuntu" width="700"/>
+  <img src="images/page_04.jpg" alt="Terminal app with Ubuntu" width="700"/>
 </p>
 
 On the first time opening the Ubuntu terminal, it will prompt you to create a user account:
@@ -174,7 +174,7 @@ Some configurations require directly editing specific lines in text files. We'll
 2. When installing, make sure to **select all options tagged as "Other"** on the setup step:
 
 <p align="center">
-  <img src="docs/images/page_05.jpg" alt="VSCode installation options" width="700"/>
+  <img src="images/page_05.jpg" alt="VSCode installation options" width="700"/>
 </p>
 
 - ✅ Add "Open with Code" action to Windows Explorer file context menu
@@ -201,7 +201,7 @@ code --install-extension ms-vscode-remote.remote-wsl
 > Note the **WSL: Ubuntu** blue rectangle on the lower left corner of the app.
 
 <p align="center">
-  <img src="docs/images/page_06.jpg" alt="VSCode connected to WSL" width="700"/>
+  <img src="images/page_06.jpg" alt="VSCode connected to WSL" width="700"/>
 </p>
 
 ---
@@ -216,7 +216,7 @@ code --install-extension ms-vscode-remote.remote-wsl
 - The code for the terminal settings will open on VSCode
 
 <p align="center">
-  <img src="docs/images/page_07.jpg" alt="Terminal settings" width="700"/>
+  <img src="images/page_07.jpg" alt="Terminal settings" width="700"/>
 </p>
 
 ### Edit Terminal JSON
@@ -234,7 +234,7 @@ In `"profiles"` → `"list"`, look for the block with `"name": "Ubuntu"` and add
 ```
 
 <p align="center">
-  <img src="docs/images/page_08.jpg" alt="Terminal JSON configuration" width="700"/>
+  <img src="images/page_08.jpg" alt="Terminal JSON configuration" width="700"/>
 </p>
 
 > [!NOTE]
@@ -291,7 +291,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 Your password will be asked. Press **"Y"** when it asks if you want to change the default shell to zsh.
 
 <p align="center">
-  <img src="docs/images/page_10.jpg" alt="Oh My Zsh installation" width="700"/>
+  <img src="images/page_10.jpg" alt="Oh My Zsh installation" width="700"/>
 </p>
 
 > [!NOTE]
@@ -375,7 +375,7 @@ code .
 You should see many dot files on the explorer menu on the left.
 
 <p align="center">
-  <img src="docs/images/page_12.jpg" alt="VSCode dotfiles explorer" width="700"/>
+  <img src="images/page_12.jpg" alt="VSCode dotfiles explorer" width="700"/>
 </p>
 
 ---
@@ -396,7 +396,7 @@ ZSH_THEME="robbyrussell"
 # Useful oh-my-zsh plugins
 plugins=(git gitfast last-working-dir common-aliases zsh-autosuggestions zsh-syntax-highlighting history-substring-search direnv)
 
-# (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
+# (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
 
 # Disable warning about insecure completion-dependent directories
