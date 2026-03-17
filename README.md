@@ -41,7 +41,7 @@ Some installation steps differ depending on your Windows version. Although all s
 - A window will pop up with your Windows version
 
 <p align="center">
-  <img src="docs/images/page_01.jpg" alt="Windows version verification" width="700"/>
+  <img src="images/page_01.jpg" alt="Windows version verification" width="700"/>
 </p>
 
 - If you have **Windows 11**, all good.
