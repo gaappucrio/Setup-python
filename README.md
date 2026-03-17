@@ -2,7 +2,7 @@
 
 > **A professional programming environment setup guide for Python on Windows with WSL, focusing on Machine Learning and Data Science workflows.**
 
-This is my professional setup for programming in Python, focusing on adding the tools to best support the task I usually do. Since some libraries have continued support for Linux systems (like GPU use for TensorFlow), this focuses on the installation of **Windows Subsystem for Linux**, along with tools to facilitate terminal use (**Oh My Zsh**) and integration to external tools (like **GitHub**).
+This is a professional setup for programming in Python, focusing on adding the tools to best support the task I usually do. Since some libraries have continued support for Linux systems (like GPU use for TensorFlow), this focuses on the installation of **Windows Subsystem for Linux**, along with tools to facilitate terminal use (**Oh My Zsh**) and integration to external tools (like **GitHub**).
 
 ---
 
