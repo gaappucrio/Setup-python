@@ -1246,7 +1246,7 @@ Create a folder for Jupyter's custom configurations:
 ```bash
 LOCATION=$(jupyter --config-dir)/custom
 mkdir -p $LOCATION
-code .
+code $(jupyter --config-dir)/custom
 ```
 
 Inside the `custom` folder, create a file called `custom.css`:
